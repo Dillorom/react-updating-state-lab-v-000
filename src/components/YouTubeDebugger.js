@@ -4,7 +4,7 @@ export default class YouTubeDebugger extends React.Componetn{
   constructor(){
     super()
     this.state = {
-      js { errors: [], user: null, settings: { bitrate: 8, video: { resolution: '1080p' } }}
+      errors: [], user: null, settings: { bitrate: 8, video: { resolution: '1080p' } }
 
     }
   }
